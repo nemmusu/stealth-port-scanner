@@ -33,16 +33,11 @@ pip install -r requirements.txt
 ```
 
 ### Install required system tools
-Stealth Port Scanner relies on `nmap` for certain scanning modes. Install it using:
+Stealth Port Scanner relies on `nordvpn` and `nmap` for certain scanning modes. Install it using:
 
 #### Debian/Ubuntu:
 ```sh
-sudo apt update && sudo apt install nmap
-```
-
-#### macOS (Homebrew):
-```sh
-brew install nmap
+sudo apt update && sudo apt install nmap nordvpn
 ```
 
 ## Usage
